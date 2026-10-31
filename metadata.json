@@ -1,0 +1,6 @@
+{
+  "name": "Mini Sudoku Unlimited",
+  "description": "A minimalist 6x6 Mini Sudoku puzzle game with unlimited boards, smart assists, and difficulty levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

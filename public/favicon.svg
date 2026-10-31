@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1610"/>
+      <stop offset="100%" stop-color="#040c08"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#1f3b29"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background tile with rounded corners and emerald border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5"/>
+
+  <!-- Inner big box container -->
+  <rect x="9" y="9" width="46" height="46" rx="9" fill="#07130c" stroke="#1f3b29" stroke-width="1.5"/>
+
+  <!-- Bold Infinity Symbol (Unlimited) in the big box -->
+  <path d="M 32 32 C 37.5 22 49 22 49 32 C 49 42 37.5 42 32 32 C 26.5 22 15 22 15 32 C 15 42 26.5 42 32 32 Z"
+        fill="none"
+        stroke="url(#goldGrad)"
+        stroke-width="5.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
