@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Mini Sudoku Unlimited
 
-# Run and deploy your AI Studio app
+A minimalist 6x6 Mini Sudoku puzzle game with unlimited boards, smart assists, and difficulty levels.
 
-This contains everything you need to run your app locally.
+**Live site:** https://mini-sudoku-unlimited.vercel.app
 
-View your app in AI Studio: https://ai.studio/apps/da1b8de9-158c-4252-ae94-20bde749b856
+![Mini Sudoku Unlimited screenshot](screenshot.png)
 
-## Run Locally
+## How to Play
 
-**Prerequisites:**  Node.js
+- Fill the grid with numbers 1 to 6
+- Every row and every column must contain unique numbers
+- Every 2x3 block separated by thick lines must contain unique numbers
+- Completing a row, column or block locks in its correct answers
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Unlimited boards with Easy, Normal and Hard difficulties
+- Hint button and optional conflict highlighting
+- Timer with solve count, best time, average time and streaks
+- On-screen number pad, dark and light themes
+- High contrast and color-blind modes, reduced motion and sound effects
+
+## Tech Stack
+
+- [Vite](https://vite.dev/)
+- React
+- TypeScript
+- Hosted on [Vercel](https://vercel.com)
