@@ -1,6 +1,6 @@
 # Mini Sudoku Unlimited
 
-A minimalist 6x6 Mini Sudoku puzzle game with unlimited boards, smart assists, and difficulty levels.
+A 6x6 Mini Sudoku puzzle game based on LinkedIn with unlimited boards.
 
 **Live site:** https://mini-sudoku-unlimited.vercel.app
 
@@ -18,12 +18,11 @@ A minimalist 6x6 Mini Sudoku puzzle game with unlimited boards, smart assists, a
 - Unlimited boards with Easy, Normal and Hard difficulties
 - Hint button and optional conflict highlighting
 - Timer with solve count, best time, average time and streaks
-- On-screen number pad, dark and light themes
-- High contrast and color-blind modes, reduced motion and sound effects
+- Accessibility settings
 
 ## Tech Stack
 
 - [Vite](https://vite.dev/)
 - React
-- TypeScript
+- HTML
 - Hosted on [Vercel](https://vercel.com)
